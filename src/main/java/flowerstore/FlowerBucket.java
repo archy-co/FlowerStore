@@ -2,7 +2,7 @@ package flowerstore;
 
 import java.util.ArrayList;
 
-public class FlowerBucket {
+public class FlowerBucket implements Bucket {
     ArrayList<FlowerPack> flowerPacks = new ArrayList<FlowerPack>();
 
     public FlowerBucket() { }
@@ -25,5 +25,9 @@ public class FlowerBucket {
             totalPrice += flowerPack.getPrice();
         }
         return totalPrice;
+    }
+
+    public String getDescriptor(){
+        return "HomeDecorators: ";
     }
 }
