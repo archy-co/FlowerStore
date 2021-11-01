@@ -1,5 +1,5 @@
 package payment;
 
 public interface Payment {
-    public int pay(double summ);
+    public int pay(double sum);
 }
