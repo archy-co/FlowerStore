@@ -13,8 +13,8 @@ public class BucketDecorationGeneral implements Bucket {
         this.wrappee = wrappee;
     }
 
-    public String getDescriptor(){
-        return "Bucket: ";
+    public String getDecorations(){
+        return "";
     }
 
     public void addFlowerPacks(FlowerPack flowerPack){
@@ -33,8 +33,4 @@ public class BucketDecorationGeneral implements Bucket {
         return totalPrice;
     }
 
-    @Override
-    public String toString() {
-        return "Decorations: ";
-    }
 }

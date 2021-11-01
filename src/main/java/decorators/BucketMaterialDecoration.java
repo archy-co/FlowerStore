@@ -12,7 +12,7 @@ public class BucketMaterialDecoration extends BucketDecorationGeneral {
     }
 
     @Override
-    public String getDescriptor() {
-        return this.wrappee.getDescriptor() + " material";
+    public String getDecorations() {
+        return this.wrappee.getDecorations() + " material";
     }
 }

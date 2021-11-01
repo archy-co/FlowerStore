@@ -27,7 +27,7 @@ public class FlowerBucket implements Bucket {
         return totalPrice;
     }
 
-    public String getDescriptor(){
-        return "HomeDecorators: ";
+    public String getDecorations(){
+        return "Decorations:";
     }
 }

@@ -12,7 +12,7 @@ public class BucketPaintingDecoration extends BucketDecorationGeneral {
     }
 
     @Override
-    public String getDescriptor() {
-        return this.wrappee.getDescriptor() + " paint";
+    public String getDecorations() {
+        return this.wrappee.getDecorations() + " paint";
     }
 }
