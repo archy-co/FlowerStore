@@ -1,10 +1,12 @@
-import decorators.BucketDecoration;
 import decorators.BucketMaterialDecoration;
 import decorators.BucketPaintingDecoration;
 import flowerstore.*;
 
 public class Main{
     public static void main(String [] args){
+        decorationExample();
+    }
+    public static void decorationExample(){
         int [] red = {255, 0, 0};
         int [] dark_red = {127, 0, 0};
         int [] yellow = {255, 255, 0};
@@ -26,9 +28,9 @@ public class Main{
         bucket_with_deco.addFlowerPacks(rosePack);
         bucket_with_deco.addFlowerPacks(tulipPack);
 
-        System.out.println(bucket_with_deco.getDescriptor());
+        System.out.println(bucket_with_deco.getDecorations());
 
         bucket_with_deco = new BucketMaterialDecoration(bucket_with_deco);
-        System.out.println(bucket_with_deco.getDescriptor());
+        System.out.println(bucket_with_deco.getDecorations());
     }
 }
