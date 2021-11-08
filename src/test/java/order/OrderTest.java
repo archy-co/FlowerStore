@@ -1,5 +1,7 @@
-package Order;
+package order;
 
+import Order.Order;
+import Order.QuickOrder;
 import User.User;
 import User.Sender;
 import User.Receiver;
